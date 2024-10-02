@@ -1,2 +1,2 @@
 # aruna.github.io
-theme: jekyll-theme-minimal
+My personal website!
