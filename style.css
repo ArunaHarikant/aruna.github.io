@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+header h1 span.highlight {
+    color: #e8491d;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+.section {
+    padding: 20px 0;
+    background: #ffffff;
+    margin: 20px 0;
+}
+
+.section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 45%;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills-list li {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px;
+}
